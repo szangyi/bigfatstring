@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>big fat string</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Big fat string</h1>
+      <div id="thingAroundThings">
+        <div id="whereThingsStart">
+          <h2>Input:</h2>
+          <input type="text" id="input" />
+        </div>
+        <select name="operator" id="operator">
+          <option value="option1">
+            If input is a first name: Make the first character in a name
+            uppercase, and the rest lowercase
+          </option>
+          <option value="option2">
+            If input is a full name: Find the first name
+          </option>
+          <option value="option3">
+            If input is a full name: Find the length of the first name
+          </option>
+          <option value="option4">
+            If input is a full name: Find the middle name start and end
+            position, and the middle name itself in a full name string
+          </option>
+          <option value="option5">
+            If input is a filename: Check if a filename is .png or .jpg
+          </option>
+          <option value="option6">
+            If input is a password: Hide a password with the correct number of
+            *s
+          </option>
+          <option value="option7">
+            With any input: Make the third character uppercase
+          </option>
+          <option value="option8">
+            With any input: Make a character uppercase, if it follows a space or
+            a hyphen
+          </option>
+        </select>
+
+        <div id="whereThingsHappens">
+          <button type="text" id="generate">Generate output</button>
+          <output text="text" id="output"></output>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
