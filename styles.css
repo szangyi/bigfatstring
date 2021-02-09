@@ -11,10 +11,11 @@ main {
   margin: auto;
 }
 main > div {
-  background-color: lightseagreen;
+  background-color: rgb(212, 194, 206);
   padding: 20px;
+  border-radius: 20px;
 }
-#whereThingsStart {
+#inputcontainer {
   display: inline-flex;
   margin: 5px;
 }
@@ -23,14 +24,14 @@ main > select {
   width: 700px;
 }
 
-#whereThingsHappens {
+#outputcontainer {
   margin: 1em 0 1em 0;
 }
-#whereThingsHappens > button,
+#outputcontainer > button,
 #output {
   padding: 5px;
 }
-#whereThingsHappens > button {
+#outputcontainer > button {
   background-color: #f5f5f5;
 }
 #output {
